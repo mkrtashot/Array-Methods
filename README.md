@@ -129,3 +129,23 @@ const arr = [1, 22, 55, 166, 5, 36, 11, 205, 333, 95, 62, 10, 43]
 ````
 
 Here is the [solution](9.number_sum_18.js)
+
+````
+- Write a function which calculates average age of users.
+``` javascript
+const users = [
+{
+username: "Yuri Gagarin",
+lang: "ru",
+age: 56,
+},
+{
+username: "Nil Armstrong",
+lang: "ENG",
+age: 54,
+},
+];
+getAverageAge(users); // 55
+````
+
+Here is the [solution](10.average.js)
