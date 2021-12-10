@@ -37,3 +37,21 @@ getUserNames(users); // ['Yuri Gagarin', 'Nil Armstrong']
 ````
 
 Here is the [solution](3.usernames.js)
+
+````
+Write a function which returns array of lengths of user names
+``` javascript
+const users = [
+{
+username: "Yuri Gagarin",
+lang: "ru",
+},
+{
+username: "Nil Armstrong",
+lang: "ENG",
+},
+];
+getUsernameLengths(users); // [12, 13]
+````
+
+Here is the [solution](4.usernames_length.js)
