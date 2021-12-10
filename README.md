@@ -19,3 +19,21 @@ and return an array of numbers as per the following rules:
 ```
 
 Here is the [solution](2.ascending_descending.js)
+
+````
+Write a function which returns array of usernames.
+``` javascript
+const users = [
+{
+username: "Yuri Gagarin",
+lang: "ru",
+},
+{
+username: "Nil Armstrong",
+lang: "ENG",
+},
+];
+getUserNames(users); // ['Yuri Gagarin', 'Nil Armstrong']
+````
+
+Here is the [solution](3.usernames.js)
