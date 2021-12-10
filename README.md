@@ -93,3 +93,30 @@ filterUsers(users); // [{ username: "Nil Armstrong, lang: "ENG" }]
 ````
 
 Here is the [solution](7.users_filter_ru.js)
+
+````
+Write a function which filters object by field.
+``` javascript
+const users = [
+{
+username: "Yuri Gagarin",
+lang: "ru",
+isAstronaut: true,
+},
+{
+username: "Nil Armstrong",README.md 12/9/2021
+4 / 5
+lang: "ENG",
+isAstronaut: true,
+},
+{
+username: "Elon Musk",
+isAstronaut: false,
+},
+];
+filterByField(users, "isAstronaut"); // [{ username: "Yuri Gagarin",
+lang: "ru", isAstronaut: true, }, { username: "Nil Armstrong, lang: "ENG"
+}]
+````
+
+Here is the [solution](8.is_astronaut.js)
