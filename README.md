@@ -65,3 +65,13 @@ parseInteger(["1", "px", "2323"]); // [1, null, 2323];
 ````
 
 Here is the [solution](5.parseInteger.js)
+
+````
+- Given an array, return a new array that only includes the numbers.
+``` javascript
+const arr = [1, 2, 'a', true, {}, undefined, 55, false, 'hi', null,
+166, NaN]
+// [1, 2, 55, 166]
+````
+
+Here is the [solution](6.filter_num.js)
