@@ -75,3 +75,21 @@ const arr = [1, 2, 'a', true, {}, undefined, 55, false, 'hi', null,
 ````
 
 Here is the [solution](6.filter_num.js)
+
+````
+Write a function which remove users with language equals to 'ru'.
+``` javascript
+const users = [
+{
+username: "Yuri Gagarin",
+lang: "ru",
+},
+{
+username: "Nil Armstrong",
+lang: "ENG",
+},
+];
+filterUsers(users); // [{ username: "Nil Armstrong, lang: "ENG" }]
+````
+
+Here is the [solution](7.users_filter_ru.js)
