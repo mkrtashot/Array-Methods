@@ -149,3 +149,14 @@ getAverageAge(users); // 55
 ````
 
 Here is the [solution](10.average.js)
+
+Implement these array methods
+[forEach](./array_methods/forEach.js)
+[splice](./array_methods/splice.js)
+[findIndex](./array_methods/findIndex.js)
+[find](./array_methods/find.js)
+[map](./array_methods/map.js)
+[filter](./array_methods/filter.js)
+[every](./array_methods/ever.js)
+[some](./array_methods/some.js)
+[reduce](./array_methods/reduce.js)
